@@ -10,4 +10,10 @@ This script requires Python 3.x and takes data as a command-line argument. To us
 Where <input data> is the data you wish to convert into a SQL query.
 and <output data> is the file that will contains SQL Queries
 
+# Input format
+The input format should be :
+Flag.name | Flag.boolVal
+
+I uploaded an example of valid file (flags.txt)
+
 Please feel free to submit issues or pull requests if you have any suggestions or find any bugs.
