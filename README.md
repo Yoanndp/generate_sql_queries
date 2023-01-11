@@ -11,7 +11,7 @@ bugle_phenotype__conversation_labels_enabled|1
 ```
 
 # Output file format
-The output file will be in SQL format and should be executed on the phenotype.db database. It will contain insert statement on table `FlagOverrides`.
+The output file will be in SQL format and should be executed on the phenotype.db database. It will contain update statement on table `FlagOverrides`.
 
 # Usage
 ```
