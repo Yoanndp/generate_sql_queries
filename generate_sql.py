@@ -22,7 +22,7 @@ def main():
                 # Split the line into the name and value
                 name, value = line.strip().split("|")
                 # Build the query
-                query = f"UPDATE Flags SET boolVal = {value} WHERE name = \"{name}\";"
+                query = f"UPDATE FlagOverrides SET boolVal = {value} WHERE name = \"{name}\";"
                 # Write the query to the output file (note: the "\n" isn't mandatory)
                 f.write(f"{query}\n")
             except ValueError:
